@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 
-
+ALLOWED_HOSTS = ['https://risbot.onrender.com']
 
 
 
