@@ -1,0 +1,24 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #ef5350, #ffcdd2);
+}
+
+h1 {
+  color: black;
+  font-size: 6rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
